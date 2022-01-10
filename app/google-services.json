@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "307943237423",
+    "project_id": "kelompoklima-275d9",
+    "storage_bucket": "kelompoklima-275d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307943237423:android:192f9c958288e92db763da",
+        "android_client_info": {
+          "package_name": "com.pm.kelompoklima"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307943237423-3rqtpgpcnd9fmog4qu5i11epmo8se25e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl4ss-pk2YyLY7r7Fx2vmmscU0AldyAmQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307943237423-3rqtpgpcnd9fmog4qu5i11epmo8se25e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

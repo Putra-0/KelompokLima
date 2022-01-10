@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Form Pendafatran"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="10dp"/>ze
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Silahkan isi Form Pendaftaran ini"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:textAlignment="center"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnFB"
+            android:layout_gravity="center"
+            android:background="#1976D2"
+            android:text="Masuk Dengan FB"
+            android:textColor="#fff"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_mail_blue"
+            android:layout_gravity="center"
+            android:hint="Email"
+            android:id="@+id/EdEmail"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_edit_24"
+            android:layout_gravity="center"
+            android:hint="Fullname"
+            android:id="@+id/edFullname"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:layout_gravity="center"
+            android:hint="Username"
+            android:id="@+id/edUsernameSU"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:layout_gravity="center"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:id="@+id/edPasswordSU"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="DAFTAR"
+            android:background="#1976D2"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#fff"
+            android:id="@+id/btnDaftar"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dengan Mendaftar, Anda Setuju \n Terkait KEBIJAKAN PRIVASI KAMI"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:lineSpacingExtra="2sp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Sudah Punya Akun? MASUK"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:id="@+id/tvMasuk"/>
+
+    </LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#fff">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_image_one_signup" />
+
+    <ImageView
+        android:id="@+id/ImgLogo"
+        android:layout_width="148dp"
+        android:layout_height="105dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="132dp"
+        android:src="@drawable/uty" />
+
+    <TextView
+        android:id="@+id/txJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ImgLogo"
+        android:layout_marginTop="45dp"
+        android:text="Selamat Datang \n Kembali"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edPassword"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginRight="50dp"
+        android:text="SUBMIT"
+        android:textColor="#fff"/>
+
+    <EditText
+        android:id="@+id/edUsername"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ImgLogo"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="50dp"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:hint="Email"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/edPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edUsername"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="50dp"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/txDaftar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSubmit"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:text="Belum punya akun? Silahkan daftar disini"
+        android:textAlignment="center" />
+
+
+</RelativeLayout>

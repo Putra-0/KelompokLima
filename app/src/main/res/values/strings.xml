@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">KelompokLima</string>
+    <string-array name="spinnerdetail1">
+        <item>Jakarta, Indonesia(CGK)</item>
+        <item>Jakarta, Indonesia (HLP)</item>
+        <item>Surabaya, Indonesia (SUB)</item>
+        <item>Bali/Denpasar, Indonesia (DPS)</item>
+        <item>Yogyakarta, Indonesia (YKIA)</item>
+        <item>Tokyo, Japan(TYOA)</item>
+        <item>Honkong, Hongkong (HKG)</item>
+        <item>Singapore, Singapore (SIN)</item>
+    </string-array>
+    <string-array name="spinnerTo">
+        <item>Surabaya, Indonesia (SUB)</item>
+        <item>Bali/Denpasar, Indonesia (DPS)</item>
+        <item>Yogyakarta, Indonesia (YKIA)</item>
+        <item>Tokyo, Japan(TYOA)</item>
+        <item>Honkong, Hongkong (HKG)</item>
+        <item>Singapore, Singapore (SIN)</item>
+        <item>Jakarta, Indonesia(CGK)</item>
+        <item>Jakarta, Indonesia (HLP)</item>
+    </string-array>
+    <string-array name="spinnerpenumpang">
+        <item>1 Dewasa, 0 Anak-anak</item>
+        <item>2 Dewasa, 0 Anak-anak</item>
+    </string-array>
+    <string-array name="spinnerKursi">
+        <item>Economy</item>
+        <item>Premium</item>
+        <item>Business Class</item>
+        <item>First Class</item>
+    </string-array>
+    <string-array name="spinnerKota">
+        <item>Surabaya, Indonesia (SUB)</item>
+        <item>Bali/Denpasar, Indonesia (DPS)</item>
+        <item>Yogyakarta, Indonesia (YKIA)</item>
+        <item>Tokyo, Japan(TYOA)</item>
+        <item>Honkong, Hongkong (HKG)</item>
+        <item>Singapore, Singapore (SIN)</item>
+        <item>Jakarta, Indonesia(CGK)</item>
+        <item>Jakarta, Indonesia (HLP)</item>
+    </string-array>
+    <string-array name="spinnerdurasi">
+        <item>1 Malam</item>
+        <item>2 Malam</item>
+        <item>3 Malam</item>
+    </string-array>
+    <string name="title_activity_train">Train</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>
